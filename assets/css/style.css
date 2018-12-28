@@ -1,0 +1,33 @@
+/* line 3, style.scss */
+.banner a {
+  color: #fff;
+}
+
+/* line 7, style.scss */
+.centered {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 30px !important;
+}
+
+/* line 13, style.scss */
+.section {
+  margin-top: 30px;
+}
+
+/* line 17, style.scss */
+.menu {
+  border-radius: 0 !important;
+}
+
+/* line 21, style.scss */
+.note {
+  font-size: 11px;
+  color: #2185D0;
+}
+
+/* line 26, style.scss */
+#chat-content {
+  height: 90%;
+  overflow-y: scroll;
+}

@@ -43,8 +43,13 @@ module.exports.routes = {
    * for configuration options and examples.                                  *
    *                                                                          *
    ***************************************************************************/
-  'GET /login': {view: 'login'},
-  'POST /login': 'AuthController.login',
+  'POST /profile': 'AuthController.profile',
   '/logout': 'AuthController.logout',
-  'GET /register': {view: 'register'}
+
+  'GET /game': 'GameController.game',
+
+  'GET /profile':  'UserController.profile',
+
+  'GET /chat':  'ChatController.chatroom',
+
 };
